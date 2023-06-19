@@ -75,7 +75,7 @@ const config = {
           // 搜索框
           {
             type: 'search',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/Neige7/Banker',
