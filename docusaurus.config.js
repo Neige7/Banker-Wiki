@@ -133,6 +133,20 @@ const config = {
         respectPrefersColorScheme: true,
       },
     }),
+  
+    themes: [
+      [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        {
+          hashed: true,
+          language: ["en", "zh"],
+          highlightSearchTermsOnTargetPage: true,
+          explicitSearchResultPath: true,
+          indexBlog: false,
+          docsRouteBasePath: "/"
+        },
+      ],
+    ],
 };
 
 module.exports = config;
