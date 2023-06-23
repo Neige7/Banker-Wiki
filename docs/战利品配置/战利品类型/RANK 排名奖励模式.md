@@ -65,6 +65,8 @@ RANK模式怪物示例:
 
 ## 配置示例
 
+动作写法详见[NeigeItems动作](战利品配置/公有参数.md#neigeitems动作)
+
 ```yaml
 RANK模式怪物示例:
   Type: ZOMBIE
